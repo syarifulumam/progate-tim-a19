@@ -4,7 +4,7 @@
 }
 /*Navigasi*/
 .navbar {
-  background-color: #26d0c9;
+  background-color: #3eaaf5;
   color: #fff;
   height: 60px;
 }
@@ -37,7 +37,7 @@
 	padding-bottom: 30px;
 }
 .btn{
-	background-color:red; 
+	background-color:#3eaaf5; 
 	color:white;
 	padding: 10px;
 	text-decoration: none;
