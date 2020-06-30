@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*Navigasi*/
+.navbar {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 60px;
+}
+
+.brand {
+  float: left;
+  font-size: 30px;
+  padding: 10px 40px;
+}
+
+.nav-list li {
+  float: left;
+  padding: 20px;
+  list-style: none;
+}
+/*slogan*/
+.background-img{
+  padding: 180px 0 180px 0;
+  background-image: url(assets/img1.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.slogan h1{
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+.headingkedua{
+	padding-bottom: 30px;
+}
+.btn{
+	background-color:red; 
+	color:white;
+	padding: 10px;
+	text-decoration: none;
+}
+/*AKHIR BAGIAN UMAM*/
