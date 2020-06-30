@@ -1,169 +1,169 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 
 /*Navigasi*/
 
 .navbar {
-    background-color: #3eaaf5;
-    color: #fff;
-    height: 60px;
+	background-color: #3eaaf5;
+	color: #fff;
+	height: 60px;
 }
 
 .brand {
-    float: left;
-    font-size: 30px;
-    padding: 10px 40px;
+	float: left;
+	font-size: 30px;
+	padding: 10px 40px;
 }
 
 .nav-list li {
-    float: right;
-    padding: 20px;
-    list-style: none;
+	float: right;
+	padding: 20px;
+	list-style: none;
 }
 
 
 /*slogan*/
 
 .background-img {
-    padding: 180px 0 180px 0;
-    background-image: url(assets/img1.jpg);
-    background-size: cover;
-    color: white;
-    text-align: center;
+	padding: 180px 0 180px 0;
+	background-image: url(assets/img1.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
 }
 
 .slogan h1 {
-    font-size: 40px;
-    letter-spacing: 5px;
-    margin-bottom: 5px;
+	font-size: 40px;
+	letter-spacing: 5px;
+	margin-bottom: 5px;
 }
 
 .headingkedua {
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 .btn {
-    background-color: #3eaaf5;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
+	background-color: #3eaaf5;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
 }
 
 
 
 /* Anggota Tim */
 .content{
-    
-    margin: 50px 100px;
+
+	margin: 50px 100px;
 }
 .member-list{
-    display: flex;
+	display: flex;
 }
 .title h3{
-    font-family: Helvetica;
-    font-size: 30px;
-    font-weight: bold;
+	font-family: Helvetica;
+	font-size: 30px;
+	font-weight: bold;
 }
 .title hr{
-    margin: 15px 0;
+	margin: 15px 0;
 }
 .member{
-    width: 20%;
-    transition: transform .3s;
-    animation-duration: 3s;
-    animation-name: slidein;
+	width: 20%;
+	transition: transform .3s;
+	animation-duration: 3s;
+	animation-name: slidein;
 }
 @keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%; 
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
+	from {
+		margin-left: 100%;
+		width: 300%; 
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
 }
 .member img{
-    margin: 15px auto;   
-    display: block;
-    width: 200px;
-    height: 200px;
-    
+	margin: 15px auto;   
+	display: block;
+	width: 200px;
+	height: 200px;
+
 }
 .member:hover{
-    transform: scale(1.2);
+	transform: scale(1.2);
 }
 .member h3{
-    text-align: center;
-    font-size: 18px;
-    font-weight: 100;
-    font-family: Georgia;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 100;
+	font-family: Georgia;
 }
 @media screen and (max-width:1200px) {
-    .member{
-        margin: 50px 0;
-        width: 100%;   
-    }
-    .member-list {
-        display: block; 
-    }
+	.member{
+		margin: 50px 0;
+		width: 100%;   
+	}
+	.member-list {
+		display: block; 
+	}
 }
 
 .contact-form {
-  padding: 100px 80px;
+	padding: 100px 80px;
 }
 
 input, textarea {
-  width: 1400px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  padding: 20px;
-  font-size: 20px;
-  border: 2px solid #3eaaf5;
+	/*width: 1400px;*/
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 20px;
+	font-size: 20px;
+	border: 2px solid #3eaaf5;
 }
 
 .contact-submit {
-  background-color: #3eaaf5;
-  color: #fff;
-  box-shadow: 0 5px #3eaaf5;
-  cursor: pointer;
+	background-color: #3eaaf5;
+	color: #fff;
+	box-shadow: 0 5px #3eaaf5;
+	cursor: pointer;
 }
 
 .contact-submit:active {
-  box-shadow: none;
-  position: relative;
-  top: 5px;
+	box-shadow: none;
+	position: relative;
+	top: 5px;
 }
-/*AKHIR BAGIAN UMAM*/
 
 .footer {
-    background-color: #3f3f3f;
-    color: #fff;
-    height: 20px;
-    padding: 20px 40px;
+	background-color: #3f3f3f;
+	color: #fff;
+	height: 20px;
+	padding: 20px 40px;
 }
 
 .footer-copyright {
-    float: left;
+	float: left;
 }
 
 .footer-list {
-    float: right;
+	float: right;
 }
 
 .footer-list .footer-link {
-    float: right;
-    color: #fff;
-    padding-left: 30px;
+	float: right;
+	color: #fff;
+	padding-left: 30px;
 }
 
 .footer-list .footer-link:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
