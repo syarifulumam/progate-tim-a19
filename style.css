@@ -189,6 +189,13 @@ textarea {
 }
 
 @media all and (max-width:670px) {
+	.nav-list li{
+		display: none;
+	}
+	.brand{
+		float: none;
+		text-align: center;
+	}
     .footer {
         text-align: center;
         height: 150px;
