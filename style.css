@@ -57,6 +57,66 @@ a {
 }
 
 
+
+/* Anggota Tim */
+.content{
+    
+    margin: 50px 100px;
+}
+.member-list{
+    display: flex;
+}
+.title h3{
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+}
+.title hr{
+    margin: 15px 0;
+}
+.member{
+    width: 20%;
+    transition: transform .3s;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%; 
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.member img{
+    margin: 15px auto;   
+    display: block;
+    width: 200px;
+    height: 200px;
+    
+}
+.member:hover{
+    transform: scale(1.2);
+}
+.member h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Georgia;
+}
+@media screen and (max-width:1200px) {
+    .member{
+        margin: 50px 0;
+        width: 100%;   
+    }
+    .member-list {
+        display: block; 
+    }
+}
+
+
 /*AKHIR BAGIAN UMAM*/
 
 .footer {
