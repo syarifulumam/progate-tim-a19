@@ -116,7 +116,31 @@ a {
     }
 }
 
+.contact-form {
+  padding: 100px 80px;
+}
 
+input, textarea {
+  width: 1400px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 20px;
+  border: 2px solid #3eaaf5;
+}
+
+.contact-submit {
+  background-color: #3eaaf5;
+  color: #fff;
+  box-shadow: 0 5px #3eaaf5;
+  cursor: pointer;
+}
+
+.contact-submit:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
 /*AKHIR BAGIAN UMAM*/
 
 .footer {
