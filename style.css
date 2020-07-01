@@ -1,45 +1,85 @@
-*{
-	margin:0;
-	padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+
 /*Navigasi*/
+
 .navbar {
-  background-color: #3eaaf5;
-  color: #fff;
-  height: 60px;
+    background-color: #3eaaf5;
+    color: #fff;
+    height: 60px;
 }
 
 .brand {
-  float: left;
-  font-size: 30px;
-  padding: 10px 40px;
+    float: left;
+    font-size: 30px;
+    padding: 10px 40px;
 }
 
 .nav-list li {
-  float: left;
-  padding: 20px;
-  list-style: none;
+    float: right;
+    padding: 20px;
+    list-style: none;
 }
+
+
 /*slogan*/
-.background-img{
-  padding: 180px 0 180px 0;
-  background-image: url(assets/img1.jpg);
-  background-size: cover;
-  color: white;
-  text-align: center;
+
+.background-img {
+    padding: 180px 0 180px 0;
+    background-image: url(assets/img1.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
 }
-.slogan h1{
-  font-size: 40px;
-  letter-spacing: 5px;
-  margin-bottom: 5px;
+
+.slogan h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
 }
-.headingkedua{
-	padding-bottom: 30px;
+
+.headingkedua {
+    padding-bottom: 30px;
 }
-.btn{
-	background-color:#3eaaf5; 
-	color:white;
-	padding: 10px;
-	text-decoration: none;
+
+.btn {
+    background-color: #3eaaf5;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
 }
+
+
 /*AKHIR BAGIAN UMAM*/
+
+.footer {
+    background-color: #3f3f3f;
+    color: #fff;
+    height: 20px;
+    padding: 20px 40px;
+}
+
+.footer-copyright {
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list .footer-link {
+    float: right;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.footer-list .footer-link:hover {
+    text-decoration: underline;
+}
